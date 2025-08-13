@@ -1,6 +1,6 @@
-# Forward Reaction API
+# Forward Prediction API
 
-A FastAPI-based API that uses pre-trained model from the [ASKCOS project](https://gitlab.com/mlpds_mit/askcosv2/forward_predictor/augmented_transformer) for forward reaction prediction.
+A FastAPI-based API that uses pre-trained model from the [ASKCOS project](https://gitlab.com/mlpds_mit/askcosv2/forward_predictor/augmented_transformer) for forward prediction.
 
 ### Local Development
 
@@ -29,15 +29,15 @@ A FastAPI-based API that uses pre-trained model from the [ASKCOS project](https:
 
 1. **Build the image**
    ```bash
-   docker build -t forward-reaction-api:latest .
+   docker build -t forward-prediction-api:latest .
    ```
 
 1. **Run the container**
    ```bash
-   docker run -d --name forward-reaction-api \
+   docker run -d --name forward-prediction-api \
      -p 8000:8000 \
      -e AUTH_ENABLED=false \
-     forward-reaction-api:latest
+     forward-prediction-api:latest
    ```
 
 ## API Endpoint
