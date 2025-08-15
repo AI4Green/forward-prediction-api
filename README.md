@@ -2,6 +2,8 @@
 
 A FastAPI-based API that uses pre-trained model from the [ASKCOS project](https://gitlab.com/mlpds_mit/askcosv2/forward_predictor/augmented_transformer) for forward prediction.
 
+Docker image can be found at: https://hub.docker.com/r/ai4greeneln/forward_prediction
+
 ### Local Development
 
 1. **Install dependencies**
